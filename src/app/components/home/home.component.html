@@ -1,0 +1,13 @@
+<div>  
+  <div>
+  <ag-grid-angular 
+  style="height:400px" 
+  class="ag-theme-blue ag-custom"
+  [rowData]="rowData" 
+  [gridOptions]="gridOptions"
+  [columnDefs]="columnDefs"
+  (gridReady)="onGridReady($event)"
+  (rowClicked)="showBookingDetail($event)">
+</ag-grid-angular>
+</div>
+</div>
